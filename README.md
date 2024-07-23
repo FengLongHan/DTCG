@@ -36,10 +36,7 @@ split_ss_data
     └── annos
 ```
 
-## Todo
-- [x] Release data list
-- [x] Release train code & guide (coming soon)
-- [x] Release models
+
 
 ## Acknowledgement
 Many thanks to the brilliant works ([SOOD]( https://github.com/HamPerdredes/SOOD))!
