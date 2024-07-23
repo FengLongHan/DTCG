@@ -19,7 +19,7 @@ train.py \ configs/ssad_fcos/seod_traffic_10p.py
 Or train the supervised baseline via configs in `./configs/rotated_fcos/`.
 
 ## Data preparation
-Firstly, you need to divide the labelled data from the unlabelled data. After split, the data folder should be organized as follows, we further need to create empty annotations files for unlabeled data via tools/data/dota/create_empty_annfiles.py
+Firstly, you need to divide the labelled data from the unlabelled data. After split, the data folder should be organized as follows, we further need to create empty annotations files for unlabeled data.
 ```
 split_ss_data
 ├── train
