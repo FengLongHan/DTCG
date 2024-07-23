@@ -10,8 +10,8 @@ Elliptical Object Detection (EOD) is crucial yet challenging due to complex scen
 # Training
 Code and Config are now available. You could train DTCG with the following command:
 ```
-CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nnodes=1 \
---node_rank=0 --master_addr="127.0.0.1" --nproc_per_node=1 --master_port=25500 \
+CUDA_VISIBLE_DEVICES=0,1 python -m torch.distributed.launch --nnodes=1 \
+--node_rank=0 --master_addr="127.0.0.1" --nproc_per_node=2 --master_port=25500 \
 train.py \ configs/ssad_fcos/seod_traffic_10p.py
 --launcher pytorch \
 --work-dir xxx
