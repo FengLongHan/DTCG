@@ -19,7 +19,7 @@ class RotatedSingleStageDTLoss(nn.Module):
         aux_loss=None,
         sigma_scale=0.5,
         rbox_pts_ratio=0.25,
-        aux_loss_cfg=dict(),
+        aux_loss_cfg=dict(), 
         dynamic_weight="ang",
         dynamic_fix_weight=None,
     ):

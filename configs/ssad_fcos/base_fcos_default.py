@@ -121,7 +121,7 @@ data = dict(
             pipeline=sup_pipeline,
         ),
         unsup=dict(
-            type=dataset_type,
+            type=dataset_type, 
             ann_file=None,
             img_prefix=None,
             pipeline=unsup_pipeline,

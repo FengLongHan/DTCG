@@ -73,7 +73,7 @@ class RotatedSSTGDenseTeacher(RotatedSemiDetector):
                 format_data[tag]["img_metas"] = [img_metas[idx]]
                 format_data[tag]["gt_bboxes"] = [gt_bboxes[idx]]
                 format_data[tag]["gt_labels"] = [gt_labels[idx]]
-            else:
+            else: 
                 format_data[tag]["img"].append(imgs[idx])
                 format_data[tag]["img_metas"].append(img_metas[idx])
                 format_data[tag]["gt_bboxes"].append(gt_bboxes[idx])
